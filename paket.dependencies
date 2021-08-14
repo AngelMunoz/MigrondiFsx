@@ -1,0 +1,8 @@
+source https://api.nuget.org/v3/index.json
+git https://github.com/AngelMunoz/Migrondi.git main build: "dotnet fsi build.fsx", Packages: /dist/
+
+
+nuget FSharp.Core
+nuget Migrondi.Lib
+nuget FSharp.Compiler.Service
+nuget SqlHydra.Query
