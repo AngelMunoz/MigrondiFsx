@@ -1,5 +1,5 @@
 source https://api.nuget.org/v3/index.json
-git https://github.com/AngelMunoz/Migrondi.git main build: "dotnet fsi build.fsx", Packages: /dist/
+git https://github.com/AngelMunoz/Migrondi.git main build: "dotnet fsi build.fsx -t PackNugets", Packages: /dist/
 
 
 nuget FSharp.Core
